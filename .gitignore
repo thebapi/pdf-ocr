@@ -68,3 +68,10 @@ typings/
 out
 gen
 /server/output/
+.DS_Store
+server/.DS_Store
+server/helpers/
+server/lib/.DS_Store
+server/lib/pdf-extract/.DS_Store
+server/lib/pdf-extract/share/.DS_Store
+test/
