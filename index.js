@@ -18,9 +18,9 @@ const OCRService = require('./server/services/OCRService');
 
 let files = fs.readdirSync(path.join(__dirname , 'samples'), 'utf8');
 
-files = files.filter(file=> path.extname(file) === '.pdf');
+files = files.filter(file=> path.extname(file).toLowerCase() === '.pdf');
 
-
+console.log('files', files);
 
 
 
